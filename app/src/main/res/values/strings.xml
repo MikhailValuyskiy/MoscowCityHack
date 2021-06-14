@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">StartHub</string>
+
+    <string name="main_title">Интересные\nмероприятия для вас</string>
+    <string name="events_title">Мероприятия</string>
+    <string name="recommended">Рекомендуемые</string>
+    <string name="popular">Популярные</string>
+    <string name="upcoming">Понравившиеся</string>
+    <string name="my_events">Мои мероприятия</string>
+    <string name="near_you">Рядом с вами</string>
+    <string name="master">Мастер-классы</string>
+    <string name="webinars">Вебинары</string>
+    <string name="networking">Нетворкинг</string>
+
+    <string name="projects">Проекты</string>
+    <string name="mentors">Рекомендуемые участники</string>
+    <string name="experts">Истории от экспертов</string>
+
+    <string name="cloth">Одежда</string>
+    <string name="Acc">Аксессуары</string>
+    <string name="decor">Декор</string>
+    <string name="toy">Детские игрушки</string>
+    <string name="hobby">Товары для хобби</string>
+    <string name="present">Подарки</string>
+    <string name="baloons">Воздушные шары</string>
+
+    <string name="form">Регистрация</string>
+
+    <string name="tutorial_3_title">Создай проект</string>
+    <string name="tutorial_3_subtitle">Создай проект</string>
+
+    <string name="tutorial_2_title">Собери команду</string>
+    <string name="tutorial_2_subtitle">Собери команду</string>
+
+    <string name="tutorial_1_title">""</string>
+    <string name="tutorial_1_subtitle">""</string>
+
+    <string name="services">Услуги</string>
+
+    <string name="home">События</string>
+    <string name="tutorial_start">Начать</string>
+
+    <string name="more">Ещё…</string>
+    <string name="basket">Нетворкинг</string>
+    <string name="profile">Профиль</string>
+    <string name="search">Поиск</string>
+
+    <string name="close">закрыть</string>
+
+
+    <string name="good_title">Название</string>
+    <string name="good_description">Описание</string>
+    <string name="currency">Валюта</string>
+
+    <string name="rub_currency">Руб (₽)</string>
+
+    <string-array name="tab_titles">
+        <item>Регистрация</item>
+        <item>Мои проекты</item>
+        <item>Отклики</item>
+        <item>Чат</item>
+    </string-array>
+
+    <string name="placeholder">Личный\nкабинет</string>
+
+    <string name="currency_symbol_rub">₽</string>
+    <string name="currency_symbol_eur">€</string>
+    <string name="currency_symbol_usd">$</string>
+    <string name="currency_symbol_gbp">£</string>
+
+    <string name="vendor_lk_vk_link">Ссылка на Вконтакте</string>
+    <string name="vendor_lk_instagramm_link">Ссылка на Instagram</string>
+    <string name="vendor_lk_whatsapp_link">Ссылка на Whatsapp</string>
+    <string name="vendor_lk_web_link">Ссылка на сайт</string>
+    <string name="save_button">Сохранить</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

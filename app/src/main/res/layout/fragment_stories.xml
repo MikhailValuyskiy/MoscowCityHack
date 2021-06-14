@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.watchlist.StoriesFragment">
+
+    <com.teresaholfeld.stories.StoriesProgressView
+        android:id="@+id/stories"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/story1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/story1" />
+
+    <ImageView
+        android:id="@+id/story2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/story2"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/story3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/story3"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/message_button"
+        style="@style/TextTitleStyler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/material_margin_normal"
+        android:layout_marginTop="@dimen/material_margin_small"
+        android:background="@drawable/button_selector_view"
+        android:gravity="center"
+        android:text="Перейти в чат"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

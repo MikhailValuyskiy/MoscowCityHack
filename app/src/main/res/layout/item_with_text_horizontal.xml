@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/material_margin_super_small"
+        android:layout_marginLeft="@dimen/material_margin_super_small"
+        android:layout_marginEnd="@dimen/material_margin_super_small"
+        android:layout_marginBottom="@dimen/material_margin_normal"
+        android:orientation="horizontal"
+        tools:background="@color/white"
+        tools:ignore="RtlHardcoded">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/image_preview"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Horizontal"
+                tools:background="@color/black"
+                tools:src="@drawable/ic_avatar" />
+
+            <CheckBox
+                android:id="@+id/like"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignRight="@+id/image_preview"
+                android:layout_alignBottom="@+id/image_preview"
+                android:button="@drawable/like_checkbox" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="@drawable/card_background_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/Typography.Base.Roboto.Bold"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:text="Название события"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="@dimen/material_margin_super_small"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                tools:text="Описание"
+                tools:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:id="@+id/movie_rating"
+                style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:progressBackgroundTint="@color/colorPrimary"
+                android:stepSize="0.5"
+                tools:rating="5" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

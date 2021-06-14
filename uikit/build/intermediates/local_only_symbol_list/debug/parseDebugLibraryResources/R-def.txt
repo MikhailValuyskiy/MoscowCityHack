@@ -1,0 +1,57 @@
+R_DEF: Internal format may change without notice
+local
+attr? animationFrequency
+attr? cancel_visible
+attr? dotColor
+attr? dotMargin
+attr? dotSize
+attr? hint
+color asphalt
+color black
+color blue
+color blueDark
+color colorAccent
+color colorAccentDark
+color colorControlNormal
+color colorItemDisabled
+color colorItemSelected
+color colorPrimary
+color colorPrimaryDark
+color dark
+color darkAsphalt
+color darkBlue
+color darkWhite
+color dark_green
+color favorite
+color green
+color grey
+color mainFeedBackground
+color orange
+color red
+color redOrange
+color selectedControlIndicator
+color textColorGrey
+color textColorLight
+color transparent_black
+color transparent_grey
+color white
+color white_dirty
+color white_swan
+color yellow
+dimen close_width
+dimen material_margin_large
+dimen material_margin_normal
+dimen material_margin_small
+dimen material_margin_super_small
+drawable ic_search
+drawable ic_settings
+drawable search_background
+id delete_text_button
+id search
+id search_container
+id search_edit_text
+layout search_toolbar
+string close
+string search_hint
+styleable SearchBar hint cancel_visible
+styleable TypingIndicator dotColor dotSize animationFrequency dotMargin

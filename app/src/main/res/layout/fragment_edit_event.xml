@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_padding_normal">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="226dp"
+                android:layout_height="226dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/vendor_avatar"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/send_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/edit_profile_button"
+                    style="@style/CheckBoxPrimary.Base"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/ic_edit" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/edit_vendor_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/default_padding_normal"
+                android:layout_marginRight="@dimen/default_padding_normal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/vendor_title_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@fonts/raleway_extra_light"
+                    android:gravity="center"
+                    android:hint="Введите название профиля"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#52575D" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/city_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@fonts/raleway_extra_light"
+                android:gravity="center"
+                android:hint="Выберите город"
+                android:textColor="#AEB5BC" />
+
+            <EditText
+                android:id="@+id/category_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@fonts/raleway_extra_light"
+                android:gravity="center"
+                android:hint="Выберите город"
+                android:textColor="#AEB5BC" />
+
+
+        </LinearLayout>
+
+        <com.yarolegovich.discretescrollview.DiscreteScrollView
+            android:id="@+id/picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="@dimen/default_padding_normal" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/add_portfolio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/picker"
+            android:layout_marginLeft="84dp"
+            android:text="Загрузить фото товара"
+            android:textAllCaps="false"
+            android:textColor="@color/white_swan"
+            android:textSize="12sp"
+            android:visibility="visible"
+            app:chipBackgroundColor="@color/colorAccentDark"
+            tools:text="Срочно" />
+
+        <RelativeLayout
+            android:id="@+id/price_global_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_portfolio"
+            android:layout_marginTop="@dimen/default_padding_normal">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="84dp"
+                android:fontFamily="@fonts/raleway_bold"
+                android:gravity="center"
+                android:text="Цена товара"
+                android:textAllCaps="true"
+                android:textColor="#AEB5BC"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/price_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/price"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="@dimen/default_padding_normal"
+                android:layout_marginBottom="@dimen/default_padding_large">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|start"
+                    android:src="@drawable/ic_pink" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/price_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:autoLink="phone"
+                        android:hint="Описание товара"
+                        android:textColor="#41444B"
+                        android:textSize="14dp" />
+
+                    <EditText
+                        android:id="@+id/price_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:autoLink="phone"
+                        android:hint="Цена (5000)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#41444B"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/price_layout_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/price_layout_2"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/default_padding_normal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/delete_price_3"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_vertical|start"
+                    android:src="@drawable/ic_delete"
+                    android:tint="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/price_desc_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:autoLink="phone"
+                        android:hint="Описание услуги (Love Story/Свадебная фотосъёмка)"
+                        android:textColor="#41444B"
+                        android:textSize="14dp" />
+
+                    <EditText
+                        android:id="@+id/price_value_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:autoLink="phone"
+                        android:hint="Цена (5000)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#41444B"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/price_layout_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/price_layout"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="@dimen/default_padding_normal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/delete_price_2"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_vertical|start"
+                    android:src="@drawable/ic_delete"
+                    android:tint="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/price_desc_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:autoLink="phone"
+                        android:hint="Описание услуги (Love Story/Свадебная фотосъёмка)"
+                        android:textColor="#41444B"
+                        android:textSize="14dp" />
+
+                    <EditText
+                        android:id="@+id/price_value_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:autoLink="phone"
+                        android:hint="Цена (5000)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#41444B"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/add_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="@+id/price_layout"
+                android:layout_below="@+id/price_layout_2"
+                android:layout_marginLeft="84dp"
+                android:text="Добавить блок "
+                android:textAllCaps="false"
+                android:textColor="@color/white_swan"
+                android:textSize="12sp"
+                android:visibility="visible"
+                app:chipBackgroundColor="@color/colorAccentDark"
+                tools:text="Срочно" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/vendor_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_global_block"
+            android:layout_gravity="center"
+            android:layout_marginLeft="84dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@fonts/raleway_bold"
+            android:gravity="center"
+            android:text="Описание"
+            android:textAllCaps="true"
+            android:textColor="#AEB5BC"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/main_vendor_desc_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vendor_description"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/default_padding_normal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:src="@drawable/ic_pink" />
+
+            <EditText
+                android:id="@+id/short_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:autoLink="web"
+                android:fontFamily="@fonts/raleway_regular"
+                android:hint="Краткое описание 5-6 слов."
+                android:textColor="#41444B"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_vendor_full_desc_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_vendor_desc_layout"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/default_padding_normal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:src="@drawable/ic_pink" />
+
+            <EditText
+                android:id="@+id/vendor_full_description_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:fontFamily="@fonts/raleway_regular"
+                android:hint="Полное описание. Пример: Работаем с 2018 года и ведём свадьбы по всему миру"
+                android:textColor="#41444B"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vk_social_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_vendor_full_desc_layout"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/default_padding_normal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:src="@drawable/ic_pink" />
+
+            <EditText
+                android:id="@+id/vk_link_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:fontFamily="@fonts/raleway_regular"
+                android:hint="@string/vendor_lk_vk_link"
+                android:textColor="#41444B"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/instagram_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vk_social_layout"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/default_padding_normal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:src="@drawable/ic_pink" />
+
+            <EditText
+                android:id="@+id/instagram_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:autoLink="phone"
+                android:hint="@string/vendor_lk_instagramm_link"
+                android:textColor="#41444B"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/whatsapp_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/instagram_layout"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/default_padding_normal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:src="@drawable/ic_pink" />
+
+            <EditText
+                android:id="@+id/whatsapp_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:autoLink="phone"
+                android:hint="@string/vendor_lk_whatsapp_link"
+                android:textColor="#41444B"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/web_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/whatsapp_layout"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/default_padding_normal"
+            android:layout_marginBottom="@dimen/default_padding_xlarge">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:src="@drawable/ic_pink" />
+
+            <EditText
+                android:id="@+id/web_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:autoLink="phone"
+                tools:text="https://www.example.com/"
+                android:hint="@string/vendor_lk_web_link"
+                android:textColor="#41444B"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phone_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/web_layout"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="@dimen/default_padding_normal"
+            android:layout_marginBottom="@dimen/default_padding_xlarge">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:src="@drawable/ic_pink" />
+
+            <EditText
+                android:id="@+id/phone_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:autoLink="phone"
+                android:hint="Номер телефона без пробелов с 8"
+                android:inputType="phone"
+                android:textColor="#41444B"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/save_vendor_details"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/phone_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/default_padding_normal"
+            android:layout_marginRight="@dimen/default_padding_normal"
+            android:layout_marginBottom="@dimen/default_padding_normal"
+            android:background="@drawable/orange_gradient_rounded_button"
+            android:gravity="center"
+            android:paddingLeft="@dimen/default_padding_normal"
+            android:paddingRight="@dimen/default_padding_normal"
+            android:text="@string/save_button"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

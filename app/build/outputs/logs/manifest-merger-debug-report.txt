@@ -1,0 +1,626 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.8.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/7674e15dccee2933404e289699eadd39/groupie-kotlin-android-extensions-2.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/914f57cedc5ee8a86c8aa2b414d0ca8c/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.teresaholfeld:Stories:1.1.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/beaab6af48d6ab7a37b05bdd397948b9/jetified-Stories-1.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [:uikit] /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/uikit/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/8b34d59a597d888dc5b24bc3fde79d06/navigation-ui-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3d1f2a917e94aa1914b25d7e03d867b8/navigation-ui-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0-alpha01] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fa9a420e06a157ce421eb9fd2a98b5cf/material-1.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90dfe4d53c29523b5d716dec6df4a538/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2f81cef82dbff59f978e3111298fc44a/lottie-3.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.robohorse.pagerbullet:pagerbullet:1.0.9] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/805bc753539802b3217e552055ecb2d9/jetified-pagerbullet-1.0.9/AndroidManifest.xml:2:1-16:12
+MERGED from [com.yarolegovich:discrete-scrollview:1.4.9] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e85e900e859694434c337323f6662cae/jetified-discrete-scrollview-1.4.9/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/91d104ef86e8c069fc2c222e854b274e/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/d4c6967276425e817cf4c07226765f98/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4ca824906fac7c2596fc6419d5aec33b/fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/323a7d638240dded081c969ae91ea66b/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e483668d6747a492357f4b39c7436fb2/navigation-common-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3f34aff5d3483bdb21ad7f2f15ce915e/activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/16142bda11e47a9b7f99cd94d2976610/core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/c9ced802498784884927f08b12e9b973/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b41325de3ab5a29b624debaef48bafcc/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e5c31a4fc8981ed60ccf7b402b22bd7a/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/8ad98d8b656f7f54f32f304e328ea0db/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/57317007ddb5abc70e3ef3316255e9ac/jetified-picasso-transformations-2.2.1/AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.xwray:groupie:2.8.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/67fa5ff2626534e5f00d0eabf178f8e4/groupie-2.8.0/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/be551fd1f57b08d9897b5e13e1ca1c6b/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/024f60e037899a773bade23276c2eb35/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/43188b16659ef13769cb1a800637263c/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a070f13e3742a546aeb7b4d3c059fdd7/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.work:work-rxjava2:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b5cffa74244ad4d53148687111aeb97d/work-rxjava2-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [ru.tinkoff.decoro:decoro:1.5.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b14eb8c761fc8351c5ab38f0856a6da4/decoro-1.5.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.work:work-runtime-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/140c5cf4d1411adad85d2b62bf43990b/work-runtime-ktx-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.clans:fab:1.6.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3f2cacc105d0d20ef413e40fa173bf9a/fab-1.6.4/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/52ac7a2090d4857c6f1e76b5cdacb7fd/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/1876cee595db948ed48b3c0a8c8d3da6/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9f7dd0b683e4a4f8fe0f55a85f29f959/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/afeef1f9dc284638d9bf903fdc451f9a/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/80d75f85575d601960e0fc9af7d4fad7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4fdc38c7e5db280c98d1ca21ef4ef976/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/6435786ea00de02094077489e880f644/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2c82d0dbee2fe140490f1c1b500efce1/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/677bf2bff70b1ea696311f53bffcfbab/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:17:1-132:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/6c93ec214e861dc7edefae330e24b7ef/navigation-fragment-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/82f4ad2c9bcfd26bdfb29cab03a59b85/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2dd30dbf0b69eb95cda57c115dd195c6/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a19640349746f9829f798a4f7fc0422d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/d2c5ea136d6264c065a63224ef86ea7b/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/0274024c38f70ed1c8da0b5fac896f7c/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/76b34f8e5ce6f2e69aab943a3e267383/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/80bd25987780504828536f41e0e52e64/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/158cb8de75ff8d5833771f98c393efcf/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9a0db8fe99c1fd157de90155e2512423/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/285bb22e41997052b6b9569f82cbd3b4/navigation-runtime-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/92040a9678c6849ffd18d2f4f4de70c2/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/99c257bcd2356d5e322e061994a3a65e/navigation-common-2.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/dcb4c5a7ed8ecc25aae7d6f3467d2436/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b0544bb5e06d701b3c9bc28ba58221da/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/990d61fb051c774ffb4f0dce16bba295/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9b4048afcd7c62758e0c50efd26a5c43/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/034ea5b741665f96fac97aab706b5cef/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/1ae71c2c664e55407ce113b85540bf6d/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/767b49205a05e507b236956daddaec7b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/c5bc20c7c64b126e267fe435696e774d/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/700eab60f742d0f4c1e1b4d1b9d7acbd/room-runtime-2.2.3/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4cdc9429b3ba0ea84dc580f9bb80bc4e/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3abaa5bd01e186cb634a609b201ed39d/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/99f4d9530e1c902760d74bb2985da517/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/553266de27cc052baa95393b40ce0997/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2841d5b28dce201fa114f2aecbe539e9/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a11c1b1b3cc78a420df0fc46e1ad954c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e86f46cbbe29dafe95daed5e411d97a2/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/ef4139fc0a6e6a8cb96f7a08ad2df992/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/84da1976e4623902045b1c882d37a70f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/de071384ef38ba91bfdcd25c6c2c99ef/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/7b4885fbbb91f54891b420bb815a0893/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e2e1d2c87f9309e8da4088d88d034be9/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:7:5-64
+	android:name
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:7:22-62
+application
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:9:5-30:19
+MERGED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:22:5-42:19
+MERGED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.android.material:material:1.4.0-alpha01] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fa9a420e06a157ce421eb9fd2a98b5cf/material-1.4.0-alpha01/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0-alpha01] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fa9a420e06a157ce421eb9fd2a98b5cf/material-1.4.0-alpha01/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90dfe4d53c29523b5d716dec6df4a538/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90dfe4d53c29523b5d716dec6df4a538/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2f81cef82dbff59f978e3111298fc44a/lottie-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2f81cef82dbff59f978e3111298fc44a/lottie-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [com.robohorse.pagerbullet:pagerbullet:1.0.9] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/805bc753539802b3217e552055ecb2d9/jetified-pagerbullet-1.0.9/AndroidManifest.xml:11:5-14:38
+MERGED from [com.robohorse.pagerbullet:pagerbullet:1.0.9] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/805bc753539802b3217e552055ecb2d9/jetified-pagerbullet-1.0.9/AndroidManifest.xml:11:5-14:38
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/c9ced802498784884927f08b12e9b973/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/c9ced802498784884927f08b12e9b973/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.xwray:groupie:2.8.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/67fa5ff2626534e5f00d0eabf178f8e4/groupie-2.8.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.xwray:groupie:2.8.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/67fa5ff2626534e5f00d0eabf178f8e4/groupie-2.8.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/43188b16659ef13769cb1a800637263c/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/43188b16659ef13769cb1a800637263c/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [ru.tinkoff.decoro:decoro:1.5.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b14eb8c761fc8351c5ab38f0856a6da4/decoro-1.5.0/AndroidManifest.xml:11:5-20
+MERGED from [ru.tinkoff.decoro:decoro:1.5.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b14eb8c761fc8351c5ab38f0856a6da4/decoro-1.5.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.clans:fab:1.6.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3f2cacc105d0d20ef413e40fa173bf9a/fab-1.6.4/AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3f2cacc105d0d20ef413e40fa173bf9a/fab-1.6.4/AndroidManifest.xml:12:5-20
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:30:5-130:19
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:30:5-130:19
+MERGED from [androidx.core:core:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/dcb4c5a7ed8ecc25aae7d6f3467d2436/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/dcb4c5a7ed8ecc25aae7d6f3467d2436/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/700eab60f742d0f4c1e1b4d1b9d7acbd/room-runtime-2.2.3/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/700eab60f742d0f4c1e1b4d1b9d7acbd/room-runtime-2.2.3/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/84da1976e4623902045b1c882d37a70f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/84da1976e4623902045b1c882d37a70f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/dcb4c5a7ed8ecc25aae7d6f3467d2436/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:10:9-70
+activity#ru.androidheroes.starthubapp.ui.feed.WebViewActivity
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:18:9-98
+	android:name
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:18:19-86
+activity#ru.androidheroes.starthubapp.MainActivity
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:19:19-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:23:27-74
+activity#ru.androidheroes.starthubapp.ui.RegistrationActivity
+ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:26:9-29:52
+	android:screenOrientation
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:28:13-63
+	android:name
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml:27:13-80
+uses-sdk
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+MERGED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.8.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/7674e15dccee2933404e289699eadd39/groupie-kotlin-android-extensions-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.8.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/7674e15dccee2933404e289699eadd39/groupie-kotlin-android-extensions-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/914f57cedc5ee8a86c8aa2b414d0ca8c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/914f57cedc5ee8a86c8aa2b414d0ca8c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.teresaholfeld:Stories:1.1.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/beaab6af48d6ab7a37b05bdd397948b9/jetified-Stories-1.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.teresaholfeld:Stories:1.1.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/beaab6af48d6ab7a37b05bdd397948b9/jetified-Stories-1.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [:uikit] /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/uikit/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:uikit] /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/uikit/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/8b34d59a597d888dc5b24bc3fde79d06/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/8b34d59a597d888dc5b24bc3fde79d06/navigation-ui-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3d1f2a917e94aa1914b25d7e03d867b8/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3d1f2a917e94aa1914b25d7e03d867b8/navigation-ui-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0-alpha01] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fa9a420e06a157ce421eb9fd2a98b5cf/material-1.4.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0-alpha01] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fa9a420e06a157ce421eb9fd2a98b5cf/material-1.4.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90dfe4d53c29523b5d716dec6df4a538/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90dfe4d53c29523b5d716dec6df4a538/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2f81cef82dbff59f978e3111298fc44a/lottie-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2f81cef82dbff59f978e3111298fc44a/lottie-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.robohorse.pagerbullet:pagerbullet:1.0.9] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/805bc753539802b3217e552055ecb2d9/jetified-pagerbullet-1.0.9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.robohorse.pagerbullet:pagerbullet:1.0.9] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/805bc753539802b3217e552055ecb2d9/jetified-pagerbullet-1.0.9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.yarolegovich:discrete-scrollview:1.4.9] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e85e900e859694434c337323f6662cae/jetified-discrete-scrollview-1.4.9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yarolegovich:discrete-scrollview:1.4.9] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e85e900e859694434c337323f6662cae/jetified-discrete-scrollview-1.4.9/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/91d104ef86e8c069fc2c222e854b274e/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/91d104ef86e8c069fc2c222e854b274e/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/d4c6967276425e817cf4c07226765f98/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/d4c6967276425e817cf4c07226765f98/navigation-fragment-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4ca824906fac7c2596fc6419d5aec33b/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4ca824906fac7c2596fc6419d5aec33b/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/323a7d638240dded081c969ae91ea66b/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/323a7d638240dded081c969ae91ea66b/navigation-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e483668d6747a492357f4b39c7436fb2/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e483668d6747a492357f4b39c7436fb2/navigation-common-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3f34aff5d3483bdb21ad7f2f15ce915e/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3f34aff5d3483bdb21ad7f2f15ce915e/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/16142bda11e47a9b7f99cd94d2976610/core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/16142bda11e47a9b7f99cd94d2976610/core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/c9ced802498784884927f08b12e9b973/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/c9ced802498784884927f08b12e9b973/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b41325de3ab5a29b624debaef48bafcc/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b41325de3ab5a29b624debaef48bafcc/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e5c31a4fc8981ed60ccf7b402b22bd7a/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e5c31a4fc8981ed60ccf7b402b22bd7a/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/8ad98d8b656f7f54f32f304e328ea0db/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/8ad98d8b656f7f54f32f304e328ea0db/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/57317007ddb5abc70e3ef3316255e9ac/jetified-picasso-transformations-2.2.1/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/57317007ddb5abc70e3ef3316255e9ac/jetified-picasso-transformations-2.2.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.xwray:groupie:2.8.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/67fa5ff2626534e5f00d0eabf178f8e4/groupie-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie:2.8.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/67fa5ff2626534e5f00d0eabf178f8e4/groupie-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/be551fd1f57b08d9897b5e13e1ca1c6b/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/be551fd1f57b08d9897b5e13e1ca1c6b/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/024f60e037899a773bade23276c2eb35/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/024f60e037899a773bade23276c2eb35/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/43188b16659ef13769cb1a800637263c/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/43188b16659ef13769cb1a800637263c/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a070f13e3742a546aeb7b4d3c059fdd7/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a070f13e3742a546aeb7b4d3c059fdd7/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.work:work-rxjava2:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b5cffa74244ad4d53148687111aeb97d/work-rxjava2-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-rxjava2:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b5cffa74244ad4d53148687111aeb97d/work-rxjava2-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [ru.tinkoff.decoro:decoro:1.5.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b14eb8c761fc8351c5ab38f0856a6da4/decoro-1.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [ru.tinkoff.decoro:decoro:1.5.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b14eb8c761fc8351c5ab38f0856a6da4/decoro-1.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.work:work-runtime-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/140c5cf4d1411adad85d2b62bf43990b/work-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/140c5cf4d1411adad85d2b62bf43990b/work-runtime-ktx-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.clans:fab:1.6.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3f2cacc105d0d20ef413e40fa173bf9a/fab-1.6.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3f2cacc105d0d20ef413e40fa173bf9a/fab-1.6.4/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/52ac7a2090d4857c6f1e76b5cdacb7fd/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/52ac7a2090d4857c6f1e76b5cdacb7fd/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/1876cee595db948ed48b3c0a8c8d3da6/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/1876cee595db948ed48b3c0a8c8d3da6/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9f7dd0b683e4a4f8fe0f55a85f29f959/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9f7dd0b683e4a4f8fe0f55a85f29f959/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/afeef1f9dc284638d9bf903fdc451f9a/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/afeef1f9dc284638d9bf903fdc451f9a/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/80d75f85575d601960e0fc9af7d4fad7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/80d75f85575d601960e0fc9af7d4fad7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4fdc38c7e5db280c98d1ca21ef4ef976/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4fdc38c7e5db280c98d1ca21ef4ef976/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/6435786ea00de02094077489e880f644/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/6435786ea00de02094077489e880f644/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2c82d0dbee2fe140490f1c1b500efce1/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2c82d0dbee2fe140490f1c1b500efce1/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/677bf2bff70b1ea696311f53bffcfbab/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/677bf2bff70b1ea696311f53bffcfbab/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/6c93ec214e861dc7edefae330e24b7ef/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/6c93ec214e861dc7edefae330e24b7ef/navigation-fragment-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/82f4ad2c9bcfd26bdfb29cab03a59b85/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/82f4ad2c9bcfd26bdfb29cab03a59b85/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2dd30dbf0b69eb95cda57c115dd195c6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2dd30dbf0b69eb95cda57c115dd195c6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a19640349746f9829f798a4f7fc0422d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a19640349746f9829f798a4f7fc0422d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/d2c5ea136d6264c065a63224ef86ea7b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/d2c5ea136d6264c065a63224ef86ea7b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/0274024c38f70ed1c8da0b5fac896f7c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/0274024c38f70ed1c8da0b5fac896f7c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/76b34f8e5ce6f2e69aab943a3e267383/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/76b34f8e5ce6f2e69aab943a3e267383/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/80bd25987780504828536f41e0e52e64/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/80bd25987780504828536f41e0e52e64/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/158cb8de75ff8d5833771f98c393efcf/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/158cb8de75ff8d5833771f98c393efcf/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9a0db8fe99c1fd157de90155e2512423/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9a0db8fe99c1fd157de90155e2512423/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/285bb22e41997052b6b9569f82cbd3b4/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/285bb22e41997052b6b9569f82cbd3b4/navigation-runtime-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/92040a9678c6849ffd18d2f4f4de70c2/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/92040a9678c6849ffd18d2f4f4de70c2/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/99c257bcd2356d5e322e061994a3a65e/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/99c257bcd2356d5e322e061994a3a65e/navigation-common-2.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/dcb4c5a7ed8ecc25aae7d6f3467d2436/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/dcb4c5a7ed8ecc25aae7d6f3467d2436/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b0544bb5e06d701b3c9bc28ba58221da/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b0544bb5e06d701b3c9bc28ba58221da/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/990d61fb051c774ffb4f0dce16bba295/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/990d61fb051c774ffb4f0dce16bba295/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9b4048afcd7c62758e0c50efd26a5c43/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/9b4048afcd7c62758e0c50efd26a5c43/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/034ea5b741665f96fac97aab706b5cef/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/034ea5b741665f96fac97aab706b5cef/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/1ae71c2c664e55407ce113b85540bf6d/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/1ae71c2c664e55407ce113b85540bf6d/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/767b49205a05e507b236956daddaec7b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/767b49205a05e507b236956daddaec7b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/c5bc20c7c64b126e267fe435696e774d/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/c5bc20c7c64b126e267fe435696e774d/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/700eab60f742d0f4c1e1b4d1b9d7acbd/room-runtime-2.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/700eab60f742d0f4c1e1b4d1b9d7acbd/room-runtime-2.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4cdc9429b3ba0ea84dc580f9bb80bc4e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/4cdc9429b3ba0ea84dc580f9bb80bc4e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3abaa5bd01e186cb634a609b201ed39d/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/3abaa5bd01e186cb634a609b201ed39d/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/99f4d9530e1c902760d74bb2985da517/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/99f4d9530e1c902760d74bb2985da517/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/553266de27cc052baa95393b40ce0997/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/553266de27cc052baa95393b40ce0997/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2841d5b28dce201fa114f2aecbe539e9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/2841d5b28dce201fa114f2aecbe539e9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a11c1b1b3cc78a420df0fc46e1ad954c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/a11c1b1b3cc78a420df0fc46e1ad954c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e86f46cbbe29dafe95daed5e411d97a2/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e86f46cbbe29dafe95daed5e411d97a2/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/ef4139fc0a6e6a8cb96f7a08ad2df992/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/ef4139fc0a6e6a8cb96f7a08ad2df992/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/84da1976e4623902045b1c882d37a70f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/84da1976e4623902045b1c882d37a70f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/de071384ef38ba91bfdcd25c6c2c99ef/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/de071384ef38ba91bfdcd25c6c2c99ef/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/7b4885fbbb91f54891b420bb815a0893/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/7b4885fbbb91f54891b420bb815a0893/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e2e1d2c87f9309e8da4088d88d034be9/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/e2e1d2c87f9309e8da4088d88d034be9/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mikhailvaluyskiy/Desktop/android_at_work/android_school/MoscowCityHack/app/src/main/AndroidManifest.xml
+provider#com.readystatesoftware.chuck.internal.data.ChuckContentProvider
+ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:23:9-26:40
+	android:authorities
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:25:13-66
+	android:exported
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:24:13-91
+activity#com.readystatesoftware.chuck.internal.ui.MainActivity
+ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:28:9-33:50
+	android:label
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:30:13-47
+	android:launchMode
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:31:13-44
+	android:theme
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:33:13-47
+	android:taskAffinity
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:32:13-69
+	android:name
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:29:13-81
+activity#com.readystatesoftware.chuck.internal.ui.TransactionActivity
+ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:34:9-37:50
+	android:parentActivityName
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:36:13-95
+	android:theme
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:37:13-47
+	android:name
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:35:13-88
+service#com.readystatesoftware.chuck.internal.support.ClearTransactionsService
+ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.readystatesoftware.chuck:library:1.1.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/fafd8963a2023a2011be6c4ad99d15a7/jetified-library-1.1.0/AndroidManifest.xml:40:13-98
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/81c8fd6e8cde28cdf8905b15b5d3802d/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:28:22-74
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/b648820dc01823a725132bbfe3a25af9/work-runtime-2.3.4/AndroidManifest.xml:127:25-95
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/90fe4def9fc5798cdcb15fcb1c556684/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.3] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/700eab60f742d0f4c1e1b4d1b9d7acbd/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.3] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/700eab60f742d0f4c1e1b4d1b9d7acbd/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.3] /Users/mikhailvaluyskiy/.gradle/caches/transforms-2/files-2.1/700eab60f742d0f4c1e1b4d1b9d7acbd/room-runtime-2.2.3/AndroidManifest.xml:26:13-74

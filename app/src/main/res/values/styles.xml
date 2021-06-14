@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSizeTopRight">15dp</item>
+        <item name="cornerSizeTopLeft">15dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Horizontal" parent="">
+        <item name="cornerSizeTopLeft">15dp</item>
+        <item name="cornerSizeBottomLeft">15dp</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+    </style>
+
+    <style name="TransparentBottomSheet" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@color/transparent_black</item>
+    </style>
+
+
+    <style name="TextTitleStyler" parent="android:TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Typography.Base.Roboto.Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Typography.Subhead" parent="Typography.Base.Roboto.Bold">
+        <item name="android:textColor">#313031</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Typography.Caption" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#313031</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TagFilter.Black" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="checkedIcon">@drawable/chip_check_black</item>
+    </style>
+
+    <style name="CheckBoxPrimary.Base" parent="Theme.AppCompat.Light">
+        <item name="android:button">@drawable/favorite_button_state</item>
+        <!-- hardcoded because it must be carefully handpicked -->
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="TextSecondaryStyler" parent="android:TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextTitleBoldStyler" parent="android:TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="maxLines">2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+</resources>

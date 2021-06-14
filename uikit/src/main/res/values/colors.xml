@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white_swan</color>
+    <color name="colorPrimaryDark">@color/white_swan</color>
+
+    <color name="colorAccent">#4dffc9</color>
+    <color name="colorAccentDark">@color/white_swan</color>
+
+    <color name="colorControlNormal">#f9a825</color>
+
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#4fc3f7</color>
+
+    <color name="transparent_black">#00ffffff</color>
+
+    <color name="red">#d00000</color>
+    <color name="dark">#032b43</color>
+    <color name="green">#136f63</color>
+    <color name="dark_green">#079D4D</color>
+
+    <color name="redOrange">#e63946</color>
+    <color name="orange">#e76f51</color>
+    <color name="darkBlue">#155b87</color>
+    <color name="asphalt">#5c6d70</color>
+    <color name="darkAsphalt">#484a47</color>
+
+    <color name="blueDark">#FFFFFF</color>
+
+    <!--    <color name="darkWhite">#f5f5f5</color>-->
+    <color name="darkWhite">#eeeeee</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#C2C2C2</color>
+    <color name="transparent_grey">#CC000000</color>
+
+
+    <color name="colorItemSelected">#5CA0D3</color>
+    <color name="colorItemDisabled">#4a6e8a</color>
+    <color name="textColorLight">#FFFFFF</color>
+    <color name="textColorGrey">#999999</color>
+
+    <color name="favorite">#EC6E7D</color>
+    <color name="selectedControlIndicator">#D6182A</color>
+
+    <color name="mainFeedBackground">#fafafa</color>
+
+    <color name="white_swan">#fcfcfc</color>
+    <color name="white_dirty">#fafafa</color>
+
+</resources>

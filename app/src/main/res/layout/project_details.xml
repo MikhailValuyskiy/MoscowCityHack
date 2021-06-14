@@ -1,0 +1,360 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkWhite">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dimens_32"
+        android:background="@color/darkWhite"
+        tools:context="ru.androidheroes.intensiv.ui.movie_details.MovieDetailsFragment">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image_detail_preview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arvr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/arvr" />
+
+        <TextView
+            android:id="@+id/title_tv"
+            style="@style/TextTitleBoldStyler"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/material_margin_normal"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Impulse Neiry"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@id/image_like"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+            tools:text="VR-технологии для науки"
+            tools:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/image_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/material_margin_normal"
+            android:button="@drawable/checkbox"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_detail_preview" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/detail_rating"
+            style="@style/Base.Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/material_margin_normal"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressBackgroundTint="@color/colorControlNormal"
+            android:stepSize="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/buy_button"
+            tools:rating="5" />
+
+        <TextView
+            android:id="@+id/buy_button"
+            style="@style/TextTitleStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/material_margin_normal"
+            android:layout_marginTop="@dimen/material_margin_small"
+            android:background="@drawable/button_selector_view"
+            android:gravity="center"
+            android:text="Стать участником"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_tv" />
+
+        <TextView
+            android:id="@+id/description_tv"
+            style="@style/TextSecondaryStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_margin_small"
+            android:gravity="start"
+            android:padding="@dimen/material_margin_normal"
+            android:text="Продукт предназначен для повышения успеваемости и развития когнитивных способностей у детей и взрослых в игровой форме, позволяет геймифицировать и повысить вовлеченность пользователей в образовательный процесс и способствует развитию когнитивных способностей за счет использования “силы мысли” для управления контентом."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buy_button"
+            tools:text="Интерактивные лекции для знакомства с технологиями виртуальной и дополненной реальности (VR/AR). Лекции сопровождаются демонстрацией разнообразного авторского контента в формате 360, а также показами документального видео в обычных форматах." />
+
+        <TextView
+            android:id="@+id/people_going"
+            style="@style/TextSecondaryStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="start"
+            android:text="Участники проекта:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_tv"
+            tools:text="Собираются пойти:" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/people_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:scrollbars="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/people_going"
+            tools:listitem="@layout/item_with_text_circle" />
+
+        <LinearLayout
+            android:id="@id/about_project_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/people_recycler_view">
+
+            <TextView
+                android:id="@+id/about_project"
+                style="@style/TextTitleBoldStyler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/material_margin_normal"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="О проекте"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/about_project_problem_title"
+                style="@style/TextTitleBoldStyler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/material_margin_normal"
+                android:layout_marginBottom="8dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+                tools:text="Потребность/проблема"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/about_project_problem_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/material_margin_normal"
+                android:layout_marginBottom="8dp"
+                android:text="проект решает проблему низкого уровня вовлеченности в образовательный процесс за счет геймификации и персонализации процесса обучения, а также попутно способствует развитию когнитивных способностей и как следствие – повышению успеваемости учащихся, за счет использования нейрокомпьютерных интерфейсов."
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+                tools:text="проект решает проблему низкого уровня вовлеченности в образовательный процесс за счет геймификации и персонализации процесса обучения, а также попутно способствует развитию когнитивных способностей и как следствие – повышению успеваемости учащихся, за счет использования нейрокомпьютерных интерфейсов."
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/about_project_market_title"
+                style="@style/TextTitleBoldStyler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/material_margin_normal"
+                android:layout_marginBottom="8dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+                tools:text="Рыночное применение"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/about_project_market_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/material_margin_normal"
+                android:layout_marginBottom="8dp"
+                android:text="продукт предназначен для интеграции в учебный процесс образовательных учреждений с целью проверки знаний/закрепления материала посредством выполнения тестовых заданий (квизов). Также возможно применение в корпоративном и промышленном сегменте (для обучения сотрудников), и в медицине (для развития когнитивных способностей пожилых людей и реабилитации пациентов)."
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+                tools:text="проект решает проблему низкого уровня вовлеченности в образовательный процесс за счет геймификации и персонализации процесса обучения, а также попутно способствует развитию когнитивных способностей и как следствие – повышению успеваемости учащихся, за счет использования нейрокомпьютерных интерфейсов."
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/about_project_concurent_title"
+                style="@style/TextTitleBoldStyler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/material_margin_normal"
+                android:layout_marginBottom="8dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+                tools:text="Конкуренты"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/about_project_concurent_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/material_margin_normal"
+                android:layout_marginBottom="8dp"
+                android:text="В сегменте нейроинтерфейсов для образования: BrainCo, Emotiv. В сегменте оборудования (VR+BCI): Neurable, NextMind. В сегменте образовательных платформ: Учи.ру, Learnis, Core. В сегменте VR-технологий для образования: ClassVR, STEM-Games."
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+                tools:text="проект решает проблему низкого уровня вовлеченности в образовательный процесс за счет геймификации и персонализации процесса обучения, а также попутно способствует развитию когнитивных способностей и как следствие – повышению успеваемости учащихся, за счет использования нейрокомпьютерных интерфейсов."
+                tools:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/about_project_leaders_title"
+                style="@style/TextTitleBoldStyler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/material_margin_normal"
+                android:layout_marginBottom="8dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+                tools:text="Лидеры и их опыт"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/about_project_leaders_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/material_margin_normal"
+                android:text="Панов Александр, CEO, основатель группы компаний КБ-12, 10+ лет предпринимательского опыта, более 6500 реализованных проектов."
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_detail_preview"
+                tools:text="Панов Александр, CEO, основатель группы компаний КБ-12, 10+ лет предпринимательского опыта, более 6500 реализованных проектов."
+                tools:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/event_address"
+            style="@style/TextTitleStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_normal"
+            android:layout_marginTop="@dimen/material_margin_normal"
+            android:gravity="center"
+            android:text="Кураторы фонда"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about_project_content" />
+
+        <TextView
+            android:id="@+id/event_address_value"
+            style="@style/TextSecondaryStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="@dimen/material_margin_normal"
+            android:gravity="center"
+            app:layout_constraintStart_toEndOf="@+id/event_address"
+            app:layout_constraintTop_toBottomOf="@+id/about_project_content"
+            tools:text="ZyazevaTY@cluster.mos.ru" />
+
+        <TextView
+            android:id="@+id/event_category_value"
+            style="@style/TextSecondaryStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_normal"
+            android:gravity="center"
+            app:layout_constraintStart_toEndOf="@+id/event_address"
+            app:layout_constraintTop_toTopOf="@+id/event_price"
+            tools:text="Образование" />
+
+        <TextView
+            android:id="@+id/event_price"
+            style="@style/TextTitleStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_normal"
+            android:layout_marginTop="@dimen/material_margin_super_small"
+            android:gravity="center"
+            android:text="Отрасль"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/event_address" />
+
+
+        <TextView
+            android:id="@+id/event_date"
+            style="@style/TextTitleStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_normal"
+            android:layout_marginTop="@dimen/material_margin_super_small"
+            android:gravity="center"
+            android:text="Инициаторы"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/event_price" />
+
+        <TextView
+            android:id="@+id/event_date_value"
+            style="@style/TextSecondaryStyler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_normal"
+            android:gravity="center"
+            android:text="ООО НЕЙРИ"
+            app:layout_constraintStart_toEndOf="@+id/event_address"
+            app:layout_constraintTop_toTopOf="@+id/event_date"
+            tools:text="ООО НЕЙРИ" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
